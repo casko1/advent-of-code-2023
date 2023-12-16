@@ -1,7 +1,7 @@
 import re
 from itertools import combinations
 
-lines = open("11.txt").read().split("\n")
+lines = open("inputs/11.txt").read().split("\n")
 
 
 def solve(step):

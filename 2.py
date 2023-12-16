@@ -11,7 +11,7 @@ def parse(text):
     return [out["red"], out["green"], out["blue"]]
 
 
-lines = open("2.txt").readlines()
+lines = open("inputs/2.txt").readlines()
 
 part1 = 0
 part2 = 0

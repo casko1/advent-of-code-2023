@@ -1,7 +1,7 @@
 import re
 from collections import defaultdict
 
-lines = open("3.txt").read().split("\n")
+lines = open("inputs/3.txt").read().split("\n")
 lines.append("." * len(lines[0]))
 lines.insert(0, lines[-1])
 

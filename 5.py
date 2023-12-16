@@ -1,7 +1,7 @@
 import re
 from collections import defaultdict
 
-lines = open("5.txt").read().split("\n\n")
+lines = open("inputs/5.txt").read().split("\n\n")
 seeds = list(map(int, re.findall(r"\d+", lines[0])))
 maps = defaultdict(list)
 VERY_LARGE_NUMBER = 9999999999999999

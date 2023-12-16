@@ -2,7 +2,7 @@ import math
 import re
 from functools import reduce
 
-lines = [re.findall(r"\d+", line) for line in open("6.txt").read().split("\n")]
+lines = [re.findall(r"\d+", line) for line in open("inputs/6.txt").read().split("\n")]
 nums = [(int(x), int(y)) for x, y in zip(lines[0], lines[1])]
 
 

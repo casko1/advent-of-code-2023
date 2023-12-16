@@ -1,6 +1,6 @@
 import re
 
-lines = open("1.txt").readlines()
+lines = open("inputs/1.txt").readlines()
 part1 = 0
 part2 = 0
 for line in lines:

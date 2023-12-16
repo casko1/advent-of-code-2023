@@ -1,4 +1,4 @@
-patterns = open("13.txt").read().split("\n\n")
+patterns = open("inputs/13.txt").read().split("\n\n")
 
 
 def mismatches(s1, s2):

@@ -1,6 +1,6 @@
 from collections import Counter
 
-lines = open("7.txt").read().split("\n")
+lines = open("inputs/7.txt").read().split("\n")
 replacements = {"A": "Z", "K": "Y", "Q": "X", "J": "W", "T": "V"}
 
 

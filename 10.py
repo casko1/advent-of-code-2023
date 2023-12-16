@@ -1,7 +1,7 @@
 import re
 from collections import defaultdict
 
-lines = open("10.txt").read().split("\n")
+lines = open("inputs/10.txt").read().split("\n")
 start = []
 
 directions = {"|": [(1, 0), (-1, 0)], "-": [(0, 1), (0, -1)], "L": [(-1, 0), (0, 1)], "J": [(-1, 0), (0, -1)],

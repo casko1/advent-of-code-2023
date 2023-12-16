@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-lines = open("4.txt").read().split("\n")
+lines = open("inputs/4.txt").read().split("\n")
 number_of_scratchcards = defaultdict(int)
 
 part1 = 0

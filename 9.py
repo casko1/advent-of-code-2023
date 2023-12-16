@@ -1,4 +1,4 @@
-lines = open("9.txt").read().split("\n")
+lines = open("inputs/9.txt").read().split("\n")
 histories = [[int(x) for x in line.split()] for line in lines]
 
 

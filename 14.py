@@ -1,4 +1,4 @@
-lines = open("14.txt").read().split("\n")
+lines = open("inputs/14.txt").read().split("\n")
 mat = [[x for x in y] for y in lines]
 height = len(mat)
 

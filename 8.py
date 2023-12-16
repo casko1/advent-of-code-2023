@@ -1,7 +1,7 @@
 import math
 import re
 
-lines = open("8.txt").read().split("\n\n")
+lines = open("inputs/8.txt").read().split("\n\n")
 instructions = [0 if x == "L" else 1 for x in lines[0]]
 nodes_list = re.findall(r"\w+", lines[1])
 a_nodes = []
